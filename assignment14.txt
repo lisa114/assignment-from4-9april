@@ -1,0 +1,104 @@
+1.Take 3 inputs(number)from the user and show of the three.
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    function check(a,b,c){
+        if(a<=b && a<=c) {
+          return a;
+        }else if(b<=a && b<=c){
+          return b;
+        }else {
+          return c;
+        }
+    }
+    var a= prompt("enter first number");
+    var b=prompt("enter any number");
+    var c=prompt("enter eny number");
+    var x=check(a,b,c);
+    console.log(`${a},${b},${c}:smallest=${x}`);
+    </script>
+</body>
+</html>
+
+2.check whether the given chareter is a vowel or not(also check for capital charecters).
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <input type="text" name="" id="char">
+  <button onclick="vowel()">click</button>
+  <script>
+    function vowel(){
+    var char =document.getElementById("char");
+    if(char==='a'||char==='e' ||char==='i'|| char==='o'||char==='u'||char==='A'||char==='E' ||char==='O'||char==='U'){
+      console.log("vowel")
+    }else{
+      console.log("consonant")
+    }
+  }
+  </script>
+</body>
+</html>
+3.write apogram to print all even numbers less thanor equal to n(n is an input which we take using prompt)'
+
+
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var n=prompt("enter a number")
+        for(let i=0;i<=n;i++){
+            if(i%2==0)
+            console.log(i);
+        }
+    </script>
+</body>
+</html>
+
+4.<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    function check(a,b,c){
+        if(a<=b && a<=c) {
+          return a;
+        }else if(b<=a && b<=c){
+          return b;
+        }else {
+          return c;
+        }
+    }
+    var a= prompt("enter first number");
+    var b=prompt("enter any number");
+    var c=prompt("enter eny number");
+    var x=check(a,b,c);
+    console.log(`${a},${b},${c}:smallest=${x}`);
+    </script>
+</body>
+</html>
